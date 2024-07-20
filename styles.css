@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.main{
+    display: flex;
+    background-color: #D37786;
+}
+
+img{
+    height: 100vh;
+    width: 43vw;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 57vw;
+    
+}
+
+.second{
+    background-color: #F3E2C6;
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.form-main{
+    display: flex;
+    padding-top: 50px;
+    gap: 100px;
+    justify-content: center;
+    
+}
+
+.form-small{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    gap: 4px;
+    
+
+}
+
+input{
+    height: 20px;
+    width: 250px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 7px;
+    
+}
+
+
+p{
+    color: #F3E2C6;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 80px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+input:focus{
+    border: 2px solid #8AA57A;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+label{
+    font-size: small;
+
+}
+
+button{
+   padding: 10px;
+   background-color: #8AA57A;
+   color: white;
+   width: 200px;
+   font-size: 20px;
+   border-radius: 20px;
+
+}
+
+.signupbutton{
+    padding-left: 100px;
+    
+}
+
+.form-small p{
+    color: red;
+    font-size: small;
+    padding-left: 1px;
+}
